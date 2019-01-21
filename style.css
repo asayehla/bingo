@@ -1,0 +1,49 @@
+body {
+  font-family: 'Megrim', cursive;
+  font-size: 62, 5%;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.container {
+  max-width: 1115px;
+  margin: 0 auto;
+}
+
+#bingo {
+  height: 420px;
+  width: 420px;
+  border: black solid 3px;
+  padding: 10px;
+  margin: auto;
+}
+
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-auto-flow: column;
+  height: 380px;
+  width: 380px;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: red;
+}
+
+.front: hover {
+  transform: rotateY(180deg);
+  background-color: blue;
+}
