@@ -1,3 +1,5 @@
+import hatch from './hatch.js'
+
 var bingoNr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
 var bingoGrid = bingoNr.sort(() => 0.5 - Math.random());
 
@@ -58,7 +60,6 @@ grid.addEventListener('click', event => {
     if (firstGuess == secondGuess) {
       console.log('match');
     }
-
   }
 
   previousTarget = clicked;
